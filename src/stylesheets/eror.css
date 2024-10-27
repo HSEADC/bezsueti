@@ -10,7 +10,11 @@ body {
 
 @font-face {
   font-family: 'Manrope';
+<<<<<<< HEAD
   src: url('../fonts/Manrope-Bold.woff') format('woff');
+=======
+  src: url('../fonts/') format('woff');
+>>>>>>> main
   font-weight: bold;
 }
 @font-face {
