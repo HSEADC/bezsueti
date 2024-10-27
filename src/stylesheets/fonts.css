@@ -25,3 +25,27 @@
   font-weight: 300;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.woff') format('woff');
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Light.woff') format('woff');
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.woff') format('woff');
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Medium.woff') format('woff');
+  font-style: medium;
+}
