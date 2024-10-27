@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Manrope', sans-serif;
   display: flex;
@@ -16,7 +10,7 @@ body {
 
 @font-face {
   font-family: 'Manrope';
-  src: url('fonts/Manrope-Bold.woff') format('woff');
+  src: url('../fonts/') format('woff');
   font-weight: bold;
 }
 @font-face {
@@ -101,7 +95,7 @@ body {
   transform: translateX(-50%);
   width: 100%;
   height: 239px;
-  background-image: url('images/clean\ wave3.png');
+  background-image: url('../images/clean\ wave3.png');
   background-size: cover;
   animation: clean-animation2 5.5s infinite ease-in-out;
 }
@@ -136,7 +130,7 @@ body {
   transform: translateX(-50%);
   width: 100%;
   height: 170px;
-  background-image: url('images/clean\ wave2.png');
+  background-image: url('../images/clean\ wave2.png');
   background-size: cover;
   animation: clean-animation1 5.5s infinite ease-in-out;
 }
