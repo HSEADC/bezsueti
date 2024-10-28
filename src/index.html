@@ -1,50 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Media</title>
+    <title>Медиа-Сервис для Самопомощи</title>
+    <link rel="stylesheet" href="../src/stylesheets/basics.css" />
   </head>
   <body>
-    <!--banner о нас и медиа-сервисе / реклама-->
-    <h1>Справиться с тревожностью</h1>
-    <p>
-      Наш сервис предлагает медитации, дыхательные упражнения и йогу для
-      управления тревожностью. Анонимно и безопасно.
-    </p>
-
-    <!--interactive mood test-->
-    <h2>Как вы чувствуете себя сегодня?</h2>
-    <div>
-      <button type="button">Спокойно</button>
-      <button type="button">Тревожно</button>
-      <button type="button">Грустно</button>
-      <button type="button">Вдохновлено</button>
+    <!-- Header Section -->
+    <section class="section">  
+    <div class="container">
+      <img src="../src/images/logoLaMedia.png" alt="Лого" class="logo" />
+      <a href="../src/articles/eror.html">
+        <h1 class="title">О проекте</h1>
+      </a>
+      <a href="../src/articles/eror.html">
+      <h1 class="title1">Погружение</h1>
+    </a>
     </div>
-    <p>На основе вашего выбора мы предложим вам рекомендации и упражнения.</p>
+    </div>
+    </header>
 
-    <!--emergency help button-->
-    <button class="hug-yourself-btn">Обнять себя</button>
-    <p>Нужна быстрая помощь? Нажмите на кнопку, чтобы получить поддержку.</p>
-
-    <!--content по целям-->
-    <h2>Что вас интересует сегодня?</h2>
-    <ul>
-      <li><a href="./content/relaxation.html">Расслабление</a></li>
-      <li>
-        <a href="./content/anxiety-reduction.html">Снижение тревожности</a>
-      </li>
-      <li><a href="./content/energy-boost.html">Повышение энергии</a></li>
-      <li>
-        <a href="./content/self-development.html">Самопознание и развитие</a>
-      </li>
-    </ul>
-
-    <!--footer-->
-    <h2>Контакты</h2>
-    <ul>
-      <li><a href="#">Часто задаваемые вопросы</a></li>
-      <li><a href="#">Телеграм-канал</a></li>
-    </ul>
+    <!-- Main Section -->
+    <main>
+      <section class="content">
+        <!-- Text Block with Form -->
+        <div class="text-block">
+          <h2>Лёгкость каждый день</h2>
+          <p>
+            Скоро здесь появится медиа-сервис для эмоциональной самопомощи.
+            Подпишитесь, чтобы первыми узнать о запуске и получить полезные
+            материалы.
+          </p>
+          <form action="https://formspree.io/f/xnnqaqqy" method="POST">
+          <section class="feedback-section">
+            <div class="email-container">
+                <input type="email" placeholder="Ваш email" class="email-input">
+            </div>
+            <button class="submit">Отправить</button>
+        </section>
+      </form>
+          </section>
+          </div>
+        </div>          
+ <section class="main-section">
+  <div class="container first-container">
+      <div class="text">Как обрести внутренний баланс за 2 минуты</div>
+      <a href="../src/articles/eror.html">
+      <button class="try-button">Попробовать практику</button>
+    </a>
+  </div>
+  <div class="container second-container">
+    <a href="../src/articles/eror.html">
+      <div class="round-button"></div>
+    </a>
+      <div class="quote">«Мы создали этот сервис, чтобы простые практики стали доступными для каждого» — Екатерина</div>
+  </div>
+  <div class="container third-container">
+    <a href="../src/articles/eror.html">
+      <img src="../src/images/beautybox.png" alt="Изображение" />
+    </a>
+  </div>
+        </div>
+      </section>
+    </section>
+    </main>
   </body>
 </html>

@@ -1,0 +1,224 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.woff') format('woff');
+  font-weight: regular;
+}
+
+.section {
+  position: absolute;
+  margin-top: 10px;
+  width: 80vw;
+  height: 71vh;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  max-width: 29vw;
+  height: 3vh;
+  padding-top: 2vh;
+  padding-left: 3vw;
+}
+
+.logo {
+  width: 7vw;
+  height: 1.75vh;
+  margin-top: 2vh;
+  margin-left: 2vh;
+}
+
+.title {
+  font-size: 1.25vw;
+  margin-top: -2.5vh;
+  margin-left: 6vh;
+  position: absolute;
+  padding-left: 15.5vh;
+  font-weight: 100;
+  color: #2b2825;
+}
+.title1 {
+  font-size: 1.25vw;
+  margin-top: -2.5vh;
+  margin-left: 10vh;
+  position: absolute;
+  padding-left: 32vh;
+  font-weight: 100;
+  color: #2b2825;
+}
+
+.text-block {
+  width: 40vw;
+  height: 26vh;
+  left: 1vh;
+  position: absolute;
+  color: #2b2825;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4vw;
+  margin-top: 25vh;
+  left: 2vh;
+  position: absolute;
+  color: #2b2825;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5vw;
+  margin-top: 45vh;
+  left: 2vh;
+  position: absolute;
+  color: #2b2825;
+  font-weight: 100;
+}
+
+.main-section {
+  position: relative;
+  margin-left: 50vw;
+  margin-top: 3vh;
+  width: 38vw;
+  height: 71vw;
+}
+
+.container {
+  position: absolute;
+  width: 38vw;
+  height: 71vw;
+}
+
+.first-container {
+  background: url('../images/path-to-image.png') no-repeat center/cover;
+  height: 10vw;
+  width: 45vw;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-top: 294px;
+  color: white;
+}
+
+.first-container .text {
+  font-weight: 600;
+  font-size: 26px;
+  width: 391px;
+  height: 58px;
+  margin-bottom: 20px;
+}
+
+.try-button {
+  background: linear-gradient(to right, #ef9437, #f5a34e, #ffeca3);
+  border: none;
+  border-radius: 100px;
+  width: 240px;
+  height: 27px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-container {
+  background: #f4e2c9;
+  height: 14.5vw;
+  width: 20vw;
+  top: calc(35vw + 3px);
+  left: 0;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.round-button {
+  background: url('../images/arrow.svg') no-repeat center/cover;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 14vh;
+  width: 205px;
+  height: 88px;
+}
+
+.third-container {
+  position: absolute;
+  height: 20vw;
+  width: 22vw;
+  top: calc(35vw + 3px);
+  left: calc(25vw + 10px);
+}
+
+.third-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.feedback-section {
+  width: 29vw;
+  height: 5vh;
+  position: absolute;
+  top: 64vh;
+  right: 10vw;
+  display: flex;
+  align-items: center;
+}
+
+.email-container {
+  width: 17vw;
+  height: 5vh;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1vw;
+}
+
+.email-input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #000;
+}
+
+.submit {
+  background: linear-gradient(to right, #ef9437, #f5a34e, #ffeca3);
+  border: none;
+  border-radius: 100px;
+  width: 240px;
+  height: 5vh;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
