@@ -5,20 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Медиа-Сервис для Самопомощи</title>
     <link rel="stylesheet" href="../src/stylesheets/basics.css" />
-  </head>
-  <body>
+
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="Медиа-Сервис для Самопомощи" />
+    <meta
+      property="og:description"
+      content="Скоро здесь появится медиа-сервис для эмоциональной самопомощи. Подпишитесь, чтобы первыми узнать о запуске и получить полезные материалы."
+    />
+    <meta property="og:image" content="../src/images/logoLaMedia.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Медиа-Сервис для Самопомощи" />
+    <meta
+      name="twitter:description"
+      content="Скоро здесь появится медиа-сервис для эмоциональной самопомощи. Подпишитесь, чтобы первыми узнать о запуске и получить полезные материалы."
+    />
+    <meta name="twitter:image" content="../src/images/logoLaMedia.webp" />
+  
+    <meta property="og:title" content="Добро пожаловать на нашу платформу">
+    <meta property="og:description" content="Explore a variety of categories to enhance your well-being and productivity.">
+    <meta property="og:image" content="https://example.com/images/teaser-image.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Добро пожаловать на нашу платформу">
+    <meta name="twitter:description" content="Explore a variety of categories to enhance your well-being and productivity.">
+    <meta name="twitter:image" content="https://example.com/images/teaser-image.webp">
+    </head>
+    
+  
+    <body>
+    <header>
+        <h1>Добро пожаловать на нашу платформу</h1>
+        <p>Выберите категорию, чтобы начать:</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="content/relaxation.html">Релаксация</a></li>
+            <li><a href="content/self-development.html">Саморазвитие</a></li>
+            <li><a href="content/anxiety-reduction.html">Снижение тревожности</a></li>
+            <li><a href="content/energy-boost.html">Увеличение энергии</a></li>
+        </ul>
+    </nav>
+    
     <!-- Header Section -->
-    <section class="section">  
-    <div class="container">
-      <img src="../src/images/logoLaMedia.png" alt="Лого" class="logo" />
-      <a href="../src/articles/eror.html">
-        <h1 class="title">О проекте</h1>
-      </a>
-      <a href="../src/articles/eror.html">
-      <h1 class="title1">Погружение</h1>
-    </a>
-    </div>
-    </div>
+    <header>
+      <div class="container">
+        <img
+          src="../src/images/logoLaMedia.webp"
+          alt="Логотип сервиса LaMedia"
+          class="logo"
+        />
+        <nav>
+          <a href="../src/articles/eror.html" class="nav-link">
+            <h1 class="title">О проекте</h1>
+          </a>
+          <a href="../src/articles/eror.html" class="nav-link">
+            <h1 class="title1">Погружение</h1>
+          </a>
+        </nav>
+      </div>
     </header>
 
     <!-- Main Section -->
@@ -33,37 +82,52 @@
             материалы.
           </p>
           <form action="https://formspree.io/f/xnnqaqqy" method="POST">
-          <section class="feedback-section">
-            <div class="email-container">
-                <input type="email" placeholder="Ваш email" class="email-input">
+            <div class="feedback-section">
+              <input
+                type="email"
+                name="email"
+                placeholder="Ваш email"
+                class="email-input"
+                required
+              />
+              <button type="submit" class="submit">Отправить</button>
             </div>
-            <button class="submit">Отправить</button>
-        </section>
-      </form>
-          </section>
-          </div>
-        </div>          
- <section class="main-section">
-  <div class="container first-container">
-      <div class="text">Как обрести внутренний баланс за 2 минуты</div>
-      <a href="../src/articles/eror.html">
-      <button class="try-button">Попробовать практику</button>
-    </a>
-  </div>
-  <div class="container second-container">
-    <a href="../src/articles/eror.html">
-      <div class="round-button"></div>
-    </a>
-      <div class="quote">«Мы создали этот сервис, чтобы простые практики стали доступными для каждого» — Екатерина</div>
-  </div>
-  <div class="container third-container">
-    <a href="../src/articles/eror.html">
-      <img src="../src/images/beautybox.png" alt="Изображение" />
-    </a>
-  </div>
+          </form>
         </div>
       </section>
-    </section>
+
+      <!-- Practice Section -->
+      <section class="main-section">
+        <div class="container first-container">
+          <div class="text">Как обрести внутренний баланс за 2 минуты</div>
+          <a href="../src/articles/eror.html">
+            <button class="try-button">Попробовать практику</button>
+          </a>
+        </div>
+        <div class="container second-container">
+          <a href="../src/articles/eror.html">
+            <div class="round-button"></div>
+          </a>
+          <div class="quote">
+            «Мы создали этот сервис, чтобы простые практики стали доступными для
+            каждого» — Екатерина
+          </div>
+        </div>
+        <div class="container third-container">
+          <a href="../src/articles/eror.html">
+            <img
+              src="../src/images/beautybox.webp"
+              alt="Иллюстрация красоты"
+              class="image-box"
+            />
+          </a>
+        </div>
+      </section>
     </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Медиа-Сервис для Самопомощи</p>
+    </footer>
   </body>
 </html>

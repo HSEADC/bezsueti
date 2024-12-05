@@ -1,0 +1,45 @@
+
+/* Categories SCSS */
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e0f7fa;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+nav {
+    margin: 1rem;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00796b;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #00796b;
+    color: #ffffff;
+}
