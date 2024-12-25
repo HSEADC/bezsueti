@@ -1,146 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Медиа-Сервис для Самопомощи</title>
-    <link rel="stylesheet" href="../src/stylesheets/basics.css" />
-
+    
     <!-- OpenGraph Meta Tags -->
     <meta property="og:title" content="Медиа-Сервис для Самопомощи" />
-    <meta
-      property="og:description"
-      content="Скоро здесь появится медиа-сервис для эмоциональной самопомощи. Подпишитесь, чтобы первыми узнать о запуске и получить полезные материалы."
-    />
-    <meta property="og:image" content="../src/images/logoLaMedia.webp" />
+    <meta property="og:description" content="Простые практики для расслабления, энергии и самопознания." />
+    <meta property="og:image" content="https://example.com/images/og-image.webp" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://example.com" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Медиа-Сервис для Самопомощи" />
-    <meta
-      name="twitter:description"
-      content="Скоро здесь появится медиа-сервис для эмоциональной самопомощи. Подпишитесь, чтобы первыми узнать о запуске и получить полезные материалы."
-    />
-    <meta name="twitter:image" content="../src/images/logoLaMedia.webp" />
+    <meta name="twitter:description" content="Простые практики для расслабления, энергии и самопознания." />
+    <meta name="twitter:image" content="https://example.com/images/og-image.webp" />
 
-    <meta property="og:title" content="Добро пожаловать на нашу платформу" />
-    <meta
-      property="og:description"
-      content="Explore a variety of categories to enhance your well-being and productivity."
-    />
-    <meta
-      property="og:image"
-      content="https://example.com/images/teaser-image.webp"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://example.com" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Добро пожаловать на нашу платформу" />
-    <meta
-      name="twitter:description"
-      content="Explore a variety of categories to enhance your well-being and productivity."
-    />
-    <meta
-      name="twitter:image"
-      content="https://example.com/images/teaser-image.webp"
-    />
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
     <header>
-      <h1>Добро пожаловать на нашу платформу</h1>
-      <p>Выберите категорию, чтобы начать:</p>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="content/relaxation.html">Релаксация</a></li>
-        <li><a href="content/self-development.html">Саморазвитие</a></li>
-        <li>
-          <a href="content/anxiety-reduction.html">Снижение тревожности</a>
-        </li>
-        <li><a href="content/energy-boost.html">Увеличение энергии</a></li>
-      </ul>
-    </nav>
-
-    <!-- Header Section -->
-    <header>
-      <div class="container">
-        <img
-          src="../src/images/logoLaMedia.webp"
-          alt="Логотип сервиса LaMedia"
-          class="logo"
-        />
-        <nav>
-          <a href="../src/articles/eror.html" class="nav-link">
-            <h1 class="title">О проекте</h1>
-          </a>
-          <a href="../src/articles/eror.html" class="nav-link">
-            <h1 class="title1">Погружение</h1>
-          </a>
-        </nav>
-      </div>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Медиасервис</a>
+                <ul>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="meditations.html">Медитации</a></li>
+                    <li><a href="yoga.html">Йога и упражнения</a></li>
+                    <li><a href="articles.html">Советы и истории</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Main Section -->
     <main>
-      <section class="content">
-        <!-- Text Block with Form -->
-        <div class="text-block">
-          <h2>Лёгкость каждый день</h2>
-          <p>
-            Скоро здесь появится медиа-сервис для эмоциональной самопомощи.
-            Подпишитесь, чтобы первыми узнать о запуске и получить полезные
-            материалы.
-          </p>
-          <form action="https://formspree.io/f/xnnqaqqy" method="POST">
-            <div class="feedback-section">
-              <input
-                type="email"
-                name="email"
-                placeholder="Ваш email"
-                class="email-input"
-                required
-              />
-              <button type="submit" class="submit">Отправить</button>
+        <section class="hero">
+            <div class="container">
+                <h1>Настройся на гармонию</h1>
+                <p>Простые практики для расслабления, энергии и самопознания.</p>
+                <a href="#categories" class="button">Выбрать практику</a>
             </div>
-          </form>
-        </div>
-      </section>
+        </section>
 
-      <!-- Practice Section -->
-      <section class="main-section">
-        <div class="container first-container">
-          <div class="text">Как обрести внутренний баланс за 2 минуты</div>
-          <a href="../src/articles/eror.html">
-            <button class="try-button">Попробовать практику</button>
-          </a>
-        </div>
-        <div class="container second-container">
-          <a href="../src/articles/eror.html">
-            <div class="round-button"></div>
-          </a>
-          <div class="quote">
-            «Мы создали этот сервис, чтобы простые практики стали доступными для
-            каждого» — Екатерина
-          </div>
-        </div>
-        <div class="container third-container">
-          <a href="../src/articles/eror.html">
-            <img
-              src="../src/images/beautybox.webp"
-              alt="Иллюстрация красоты"
-              class="image-box"
-            />
-          </a>
-        </div>
-      </section>
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Что вам нужно сейчас?</h2>
+                <div class="category-list">
+                    <div class="category">
+                        <h3>Расслабление</h3>
+                        <p>Медитации и дыхательные практики, которые помогут снять напряжение.</p>
+                        <a href="relaxation.html" class="button">Перейти</a>
+                    </div>
+                    <div class="category">
+                        <h3>Энергия и настроение</h3>
+                        <p>Утренняя йога и вдохновляющие техники для бодрости.</p>
+                        <a href="energy.html" class="button">Перейти</a>
+                    </div>
+                    <div class="category">
+                        <h3>Самопознание и баланс</h3>
+                        <p>Осознанные практики для управления эмоциями и внутреннего спокойствия.</p>
+                        <a href="balance.html" class="button">Перейти</a>
+                    </div>
+                    <div class="category">
+                        <h3>Быстрая практика</h3>
+                        <p>Короткие упражнения, которые можно сделать за 5 минут.</p>
+                        <a href="quick.html" class="button">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>О проекте</h2>
+                <p>Мы создали сервис для тех, кто хочет управлять своими эмоциями, быть осознанным и чувствовать себя лучше. Короткие упражнения, медитации и советы помогут вам легко встроить заботу о себе в повседневную жизнь.</p>
+                <a href="about.html" class="button">Узнать больше</a>
+            </div>
+        </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
-      <p>&copy; 2024 Медиа-Сервис для Самопомощи</p>
+        <div class="container">
+            <p>&copy; 2024 Медиасервис. Все права защищены.</p>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="style-guide.html">Стайлгайд</a></li>
+                <li><a href="https://t.me/example">Telegram-канал</a></li>
+                <li><a href="https://t.me/addstickers/example">Стикерпак</a></li>
+            </ul>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
