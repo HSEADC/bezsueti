@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Страница медитаций для расслабления и поиска гармонии."
+    />
+    <meta name="author" content="Медитатор" />
+
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="Медитации" />
+    <meta
+      property="og:description"
+      content="Страница медитаций для расслабления и поиска гармонии."
+    />
+    <meta
+      property="og:image"
+      content="https://example.com/images/meditations-img.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/meditations" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Медитации" />
+    <meta
+      name="twitter:description"
+      content="Страница медитаций для расслабления и поиска гармонии."
+    />
+    <meta
+      name="twitter:image"
+      content="https://example.com/images/meditations-img.png"
+    />
+
+    <title>Медитации</title>
+
+    <link href="src/stylesheets/header.css" rel="stylesheet" />
+    <link href="src/stylesheets/footer.css" rel="stylesheet" />
+    <link href="src/stylesheets/media.css" rel="stylesheet" />
+  </head>
+
+  <body class="body">
+    <div class="wrapper">
+      <!-- Шапка сайта -->
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__inner-left">
+              <a class="header__logo" href="/">Медиатор</a>
+              <a class="header__left-link" href="#">О проекте</a>
+            </div>
+
+            <div class="header__inner-right">
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">Медитации</li>
+                  <li class="header__nav-item">Йога</li>
+                  <li class="header__nav-item">Советы</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <!-- Блок героя -->
+        <section class="hero">
+          <div class="container">
+            <h1 class="hero__title">Медитации для расслабления</h1>
+            <p class="hero__text">
+              Откройте для себя гармонию через простые медитационные практики.
+            </p>
+            <a class="hero__button" href="#meditations-list"
+              >Посмотреть медитации</a
+            >
+          </div>
+        </section>
+
+        <!-- Список медитаций -->
+        <section id="meditations-list" class="meditations-list">
+          <div class="container">
+            <h2 class="meditations-list__title">Популярные медитации</h2>
+            <ul class="meditations-list__items">
+              <li class="meditations-list__item">
+                <h3>Утренняя медитация</h3>
+                <p>
+                  Идеально подходит для заряда энергией и позитивом на весь
+                  день.
+                </p>
+                <a href="#" class="button">Начать</a>
+              </li>
+              <li class="meditations-list__item">
+                <h3>Вечернее расслабление</h3>
+                <p>Помогает избавиться от стресса и подготовиться ко сну.</p>
+                <a href="#" class="button">Начать</a>
+              </li>
+              <li class="meditations-list__item">
+                <h3>Дыхательные упражнения</h3>
+                <p>
+                  Сосредоточьтесь на своём дыхании, чтобы восстановить баланс.
+                </p>
+                <a href="#" class="button">Начать</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <!-- Подвал сайта -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__inner-left">
+              <p class="footer__text">
+                &copy; 2024 Медитатор. Все права защищены.
+              </p>
+            </div>
+            <div class="footer__inner-right">
+              <nav class="footer__nav">
+                <ul>
+                  <li><a href="/">Главная</a></li>
+                  <li><a href="style-guide.html">Стайлгайд</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+@import 'fonts.css';
+@import 'reset.css';
+@import 'global.css';
+/* ============================== */
+
+.hero {
+  padding-top: 100px;
+}
+.hero__inner-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero__title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+  color: #2b221c;
+  margin-bottom: 30px;
+  max-width: 960px;
+  font-weight: 500;
+}
+
+.hero__text {
+  font-size: 24px;
+  text-align: center;
+  max-width: 640px;
+}
+
+/* Для блока с фоном */
+.svg-block-with-effect {
+  position: relative;
+  display: flex;
+  z-index: 0;
+  max-width: 1160px;
+  max-height: 872px;
+  min-height: 872px;
+  background-image: url('../images/icons/about__hero-img.svg');
+  background-size: cover; /* Для того чтобы изображение покрывало весь блок */
+  background-position: center; /* Центрируем изображение */
+  background-repeat: no-repeat; /* Не повторять изображение */
+
+  margin: 0 auto;
+}
+
+/* Для svg, если оно внутри блока */
+.svg-block-with-effect svg {
+  width: 100%;
+  height: 100%;
+  filter: none; /* Убираем фильтр размытия для самого svg */
+  position: absolute; /* Размещаем svg на фоне */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Размещаем svg ниже текста */
+  filter: blur(15px); /* Уменьшил размытие, чтобы фон был виден */
+}
+
+/* Для текста, чтобы он был выровнен по центру */
+.svg-block-with-effect span {
+  position: absolute;
+  font-family: 'Leotaro';
+  font-size: 138px;
+  line-height: 100%;
+  color: #f9f8f4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрируем текст */
+  z-index: 1; /* Убедитесь, что текст находится поверх фонового изображения */
+}
+
+/* ================= */
+
+.stress-free__inner-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.stress-free__title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+  max-width: 761px;
+}
+
+.stress-free__text {
+  font-size: 20px;
+  text-align: center;
+  max-width: 761px;
+  margin-bottom: 40px;
+}
+
+.stress-free__top img {
+  max-width: 360px;
+  max-height: 360px;
+}
+
+.stress-free__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.stress-free__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.stress-free__bottom {
+  max-width: 360px;
+}
+
+.stress-free__bottom-title {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.stress-free__bottom-text {
+  font-weight: 400;
+  font-size: 20px;
+}

@@ -1,0 +1,196 @@
+/* //// */
+/* //// */
+
+@media (max-width: 1300px) {
+  .stress-free__list {
+    display: flex; /* Включаем flexbox */
+    flex-wrap: wrap; /* Позволяем элементам переноситься на новую строку */
+    justify-content: center; /* Центрируем элементы на каждой строке */
+    gap: 40px 55px;
+  }
+
+  .stress-free__item {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+}
+
+@media (max-width: 1100px) {
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__inner-text {
+    font-size: 20px;
+  }
+
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+}
+
+@media (max-width: 1000px) {
+  .what-now__title {
+    text-align: center;
+  }
+
+  .what-now__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* ==================== */
+  /* ==================== */
+  /* ==================== */
+
+  .about__inner {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about__inner-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+
+  .svg-block-with-effect span {
+    font-size: 95px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero__inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .hero__img {
+    width: 80%;
+  }
+
+  .hero__inner-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__inner-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+}
+
+@media (max-width: 800px) {
+  .header__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .header__logo {
+    margin-right: 0;
+  }
+
+  .header__inner-left {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header__nav-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* ==================== */
+  /* ==================== */
+  /* ==================== */
+
+  .about__inner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about__img {
+    width: 80%;
+  }
+
+  /* ======================== */
+  /* ======================== */
+  /* ======================== */
+
+  .footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer__nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    gap: 30px;
+  }
+
+  .nav__block-1,
+  .nav__block-2 {
+    text-align: center;
+  }
+
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+
+  .hero {
+    padding-top: 20px;
+  }
+
+  .svg-block-with-effect span {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 700px) {
+  .question__item-title {
+    font-size: 28px;
+  }
+
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+  /* ============================ABOUT PAGE====================================== */
+}

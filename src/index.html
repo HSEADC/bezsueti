@@ -2,119 +2,241 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Медиа-Сервис для Самопомощи</title>
+    <meta
+      name="description"
+      content="Простые практики для расслабления, энергии и самопознания."
+    />
+    <meta name="author" content="Медитатор" />
 
     <!-- OpenGraph Meta Tags -->
-    <meta property="og:title" content="Медиа-Сервис для Самопомощи" />
+    <meta property="og:title" content="Настройся на гармонию" />
     <meta
       property="og:description"
       content="Простые практики для расслабления, энергии и самопознания."
     />
-    <meta
-      property="og:image"
-      content="https://example.com/images/og-image.webp"
-    />
+    <meta property="og:image" content="./src/images/hero-img.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://example.com" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Медиа-Сервис для Самопомощи" />
+    <meta name="twitter:title" content="Настройся на гармонию" />
     <meta
       name="twitter:description"
       content="Простые практики для расслабления, энергии и самопознания."
     />
-    <meta
-      name="twitter:image"
-      content="https://example.com/images/og-image.webp"
-    />
+    <meta name="twitter:image" content="./src/images/hero-img.png" />
 
-    <link rel="stylesheet" href="styles/main.css" />
+    <title>Настройся на гармонию</title>
+
+    <!-- Подключение стилей -->
+    <link href="src/stylesheets/style.css" rel="stylesheet" />
+    <link href="src/stylesheets/header.css" rel="stylesheet" />
+    <link href="src/stylesheets/footer.css" rel="stylesheet" />
+    <link href="src/stylesheets/media.css" rel="stylesheet" />
   </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav>
-          <a href="index.html" class="logo">Медиасервис</a>
-          <ul>
-            <li><a href="about.html">О проекте</a></li>
-            <li><a href="meditations.html">Медитации</a></li>
-            <li><a href="yoga.html">Йога и упражнения</a></li>
-            <li><a href="articles.html">Советы и истории</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <main>
-      <section class="hero">
+  <body class="body">
+    <div class="wrapper">
+      <!-- Шапка сайта -->
+      <header class="header">
         <div class="container">
-          <h1>Настройся на гармонию</h1>
-          <p>Простые практики для расслабления, энергии и самопознания.</p>
-          <a href="#categories" class="button">Выбрать практику</a>
-        </div>
-      </section>
+          <div class="header__inner">
+            <div class="header__inner-left">
+              <a class="header__logo" href="/">Медиатор</a>
+              <a class="header__left-link" href="about.html">О проекте</a>
+            </div>
 
-      <section id="categories" class="categories">
-        <div class="container">
-          <h2>Что вам нужно сейчас?</h2>
-          <div class="category-list">
-            <div class="category">
-              <h3>Расслабление</h3>
-              <p>
-                Медитации и дыхательные практики, которые помогут снять
-                напряжение.
-              </p>
-              <a href="relaxation.html" class="button">Перейти</a>
-            </div>
-            <div class="category">
-              <h3>Энергия и настроение</h3>
-              <p>Утренняя йога и вдохновляющие техники для бодрости.</p>
-              <a href="energy.html" class="button">Перейти</a>
-            </div>
-            <div class="category">
-              <h3>Самопознание и баланс</h3>
-              <p>
-                Осознанные практики для управления эмоциями и внутреннего
-                спокойствия.
-              </p>
-              <a href="balance.html" class="button">Перейти</a>
-            </div>
-            <div class="category">
-              <h3>Быстрая практика</h3>
-              <p>Короткие упражнения, которые можно сделать за 5 минут.</p>
-              <a href="quick.html" class="button">Перейти</a>
+            <div class="header__inner-right">
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="meditations.html">Медитации</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="yoga.html">Йога и упражнения</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="articles.html">Советы и истории</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
-      </section>
+      </header>
 
-      <section class="about">
+      <main class="main">
+        <!-- Блок героя -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero__inner-left">
+                <h1 class="hero__title">Настройся на гармонию</h1>
+                <p class="hero__inner-text">
+                  Простые практики для расслабления, энергии и самопознания
+                </p>
+                <a class="hero__button" href="#">Выбрать практику</a>
+              </div>
+
+              <div class="hero__inner-right">
+                <img
+                  class="hero__img"
+                  src="./src/images/hero-img.png"
+                  alt="Девушка медитирует"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Блок "Что вам нужно сейчас?" -->
+        <section class="what-now">
+          <div class="container">
+            <div class="what-now__inner">
+              <h2 class="what-now__title">Что вам нужно сейчас?</h2>
+
+              <div class="what-now__body">
+                <ul class="what-now__list">
+                  <li class="what-now__item what-now__item--1">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">Расслабление</h3>
+                      <p class="what-now__item-text">
+                        Медитации и дыхательные практики, которые помогут снять
+                        напряжение
+                      </p>
+                      <a class="what-now__item-button" href="#">Перейти</a>
+                    </div>
+                  </li>
+                  <li class="what-now__item what-now__item--2">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">Энергия и настроение</h3>
+                      <p class="what-now__item-text">
+                        Утренняя йога и вдохновляющие техники для бодрости
+                      </p>
+                      <a class="what-now__item-button" href="#">Перейти</a>
+                    </div>
+                  </li>
+                  <li class="what-now__item what-now__item--3">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">
+                        Самопознание и баланс
+                      </h3>
+                      <p class="what-now__item-text">
+                        Осознанные практики для управления эмоциями
+                        и внутреннего спокойствия
+                      </p>
+                      <a class="what-now__item-button" href="#">Перейти</a>
+                    </div>
+                  </li>
+                  <li class="what-now__item what-now__item--4">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">Быстрая практика</h3>
+                      <p class="what-now__item-text">
+                        Короткие упражнения, которые можно сделать за 5 минут
+                      </p>
+                      <a class="what-now__item-button" href="#">Перейти</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Блок "О проекте" -->
+        <section class="main__about about">
+          <div class="container">
+            <div class="about__inner">
+              <div class="about__inner-left">
+                <img
+                  class="about__img"
+                  src="./src/images/about-img.png"
+                  alt="О проекте"
+                />
+              </div>
+              <div class="about__inner-right">
+                <h3 class="about__title">О проекте</h3>
+                <p class="about__text">
+                  Мы создали сервис для тех, кто хочет управлять своими
+                  эмоциями, быть осознанным и чувствовать себя лучше. Короткие
+                  упражнения, медитации и советы помогут вам легко встроить
+                  заботу о себе в повседневную жизнь.
+                </p>
+                <a class="about__button" href="about.html">Узнать больше</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Блок "Вопрос-ответ" -->
+        <section class="main__question question">
+          <div class="container">
+            <div class="question__inner">
+              <h3 class="question__title">Вопрос-ответ</h3>
+              <ul class="question__list">
+                <li class="question__item">
+                  <h4 class="question__item-title">
+                    Кому подойдет медиасервис?
+                  </h4>
+                  <p class="question__item-text">
+                    Тем, кто хочет найти внутренний баланс без сложных техник.
+                  </p>
+                </li>
+                <li class="question__item">
+                  <h4 class="question__item-title">
+                    Сколько времени займет практика?
+                  </h4>
+                  <p class="question__item-text">
+                    У нас есть упражнения от 5 минут для самых занятых.
+                  </p>
+                </li>
+                <li class="question__item">
+                  <h4 class="question__item-title">
+                    Нужны ли специальные знания?
+                  </h4>
+                  <p class="question__item-text">
+                    Нет, все практики просты и подходят любому уровню
+                    подготовки.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Подвал сайта -->
+      <footer class="footer">
         <div class="container">
-          <h2>О проекте</h2>
-          <p>
-            Мы создали сервис для тех, кто хочет управлять своими эмоциями, быть
-            осознанным и чувствовать себя лучше. Короткие упражнения, медитации
-            и советы помогут вам легко встроить заботу о себе в повседневную
-            жизнь.
-          </p>
-          <a href="about.html" class="button">Узнать больше</a>
+          <div class="footer__inner">
+            <div class="footer__inner-left">
+              <p class="footer__left-text">
+                &copy; 2024 Медитатор <br />
+                <span>Все права защищены</span>
+              </p>
+            </div>
+            <div class="footer__inner-right">
+              <nav class="footer__nav">
+                <ul class="nav__block-1">
+                  <li class="nav__item"><a href="index.html">Главная</a></li>
+                  <li class="nav__item"><a href="about.html">О проекте</a></li>
+                  <li class="nav__item"><a href="#">Быстрая практика</a></li>
+                </ul>
+                <ul class="nav__block-2">
+                  <li class="nav__item">
+                    <a href="style-guide.html">Стайлгайд</a>
+                  </li>
+                  <li class="nav__item"><a href="#">Telegram канал</a></li>
+                  <li class="nav__item"><a href="#">Стикер-пак</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container">
-        <p>&copy; 2024 Медиасервис. Все права защищены.</p>
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="about.html">О проекте</a></li>
-          <li><a href="style-guide.html">Стайлгайд</a></li>
-          <li><a href="https://t.me/example">Telegram-канал</a></li>
-          <li><a href="https://t.me/addstickers/example">Стикерпак</a></li>
-        </ul>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>

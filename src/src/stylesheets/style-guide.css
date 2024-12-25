@@ -1,0 +1,510 @@
+@import 'fonts.css';
+@import 'reset.css';
+@import 'global.css';
+/* ============================== */
+
+.hero {
+  padding-top: 50px;
+}
+
+.hero__inner-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+  max-width: 960px;
+}
+
+.hero__text {
+  font-size: 24px;
+  text-align: center;
+  max-width: 640px;
+  margin-bottom: 101px;
+}
+
+.hero_block-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.hero_block-1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Центрируем псевдоэлемент по горизонтали */
+  width: 960px; /* Задаем ширину полоски */
+  height: 1px; /* Высота полоски */
+  background: #2b221c; /* Цвет полоски */
+  transform: translateX(-50%); /* Сдвигаем полоску на 50% ширины влево */
+}
+
+.about-us__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-us__title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-us__list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 960px;
+  width: 100%;
+  flex-shrink: 1;
+  gap: 15px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.about-us__list::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Линия будет внизу блока */
+  left: 50%; /* Центрируем по горизонтали */
+  width: 960px; /* Задаем ширину линии */
+  height: 1px; /* Высота линии */
+  background: #2b221c; /* Цвет линии */
+  transform: translateX(-50%); /* Сдвигаем на половину ширины влево */
+}
+
+.about-us__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 40px;
+  background-color: var(--light-orange-bg);
+  border-radius: 30px;
+  width: 100%;
+}
+
+.about-us__item-title {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.about-us__item-text {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+
+.color__inner-title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.color__content {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 столбца одинаковой ширины */
+  grid-template-rows: repeat(3, 1fr); /* 3 строки одинаковой высоты */
+  grid-column-gap: 0px; /* Зазор между столбцами (можете изменить) */
+  grid-row-gap: 0px; /* Зазор между строками (можете изменить) */
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.color__content::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Линия будет внизу блока */
+  left: 50%; /* Центрируем по горизонтали */
+  width: 960px; /* Ширина линии, равная ширине блока */
+  height: 1px; /* Высота линии */
+  background: #2b221c; /* Цвет линии */
+  transform: translateX(-50%); /* Сдвигаем на половину ширины влево */
+}
+
+.color__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end !important;
+}
+
+.color__block span {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 4 / 2; /* Занимает 1-3 строки и 1 столбец */
+  border-radius: 30px;
+  width: 260px;
+  height: 506px;
+  background: #ee9436;
+  color: white;
+  justify-content: flex-end;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 3 / 3; /* Занимает 1-2 строки и 2 столбец */
+  background: linear-gradient(10deg, #ef9437 0%, #f5a34e 53.1%, #ffeca3 100%),
+    #ee9436;
+
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+
+  width: 260px;
+  height: 324px;
+}
+
+.div3 {
+  grid-area: 3 / 2 / 4 / 3; /* Занимает 3 строку и 2 столбец */
+  background-color: #b6d7f2; /* Пример цвета */
+
+  width: 260px;
+  height: 142px;
+  background: #493125;
+}
+
+.div4 {
+  grid-area: 1 / 3 / 2 / 4; /* Занимает 1 строку и 3 столбец */
+  background-color: #f2e6b6; /* Пример цвета */
+
+  width: 360px;
+  height: 142px;
+  background: #fbd386;
+}
+
+.div5 {
+  grid-area: 2 / 3 / 3 / 4; /* Занимает 2 строку и 3 столбец */
+  background-color: #d6b6f2; /* Пример цвета */
+
+  width: 360px;
+  height: 142px;
+  background: #a88c76;
+}
+
+.div6 {
+  grid-area: 3 / 3 / 4 / 4; /* Занимает 3 строку и 3 столбец */
+  background-color: #b6f2f2; /* Пример цвета */
+
+  width: 360px;
+  height: 142px;
+  background: #f4e2c9;
+}
+
+/* Дополнительные стили для блоков */
+.color__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+
+.fonts__title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fonts__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 64px;
+}
+
+.fonts__body-title-1 {
+  font-family: 'Leotaro';
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.fonts__body-title-2 {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.fonts__body-text-1 {
+  font-family: 'Leotaro';
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.fonts__body-text-2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.fonts__body-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 460px;
+}
+
+.fonts__body-item span {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* ======== */
+/* ======== */
+
+.fonts__bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.fonts__bottom::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Линия будет внизу блока */
+  left: 50%; /* Центрируем по горизонтали */
+  width: 960px; /* Ширина линии, равная ширине блока */
+  height: 1px; /* Высота линии */
+  background: #2b221c; /* Цвет линии */
+  transform: translateX(-50%); /* Сдвигаем на половину ширины влево */
+}
+
+.fonts__bottom-left {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding: 36px;
+  background: #2b221c;
+  color: var(--general-text-white);
+  border-radius: 30px;
+}
+
+.fonts__bottom-right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  max-width: 760px;
+}
+
+.fonts__bottom-content-title {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.fonts__bottom-content-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* ============================================= */
+/* ============================================= */
+/* ============================================= */
+
+.elements__inner-top {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.elements__title {
+  font-family: 'Leotaro';
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+}
+
+.elements__text {
+  max-width: 640px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.elements__inner-img {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.elements__inner-img::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Линия будет внизу блока */
+  left: 50%; /* Центрируем по горизонтали */
+  width: 960px; /* Ширина линии, равная ширине блока */
+  height: 1px; /* Высота линии */
+  background: #2b221c; /* Цвет линии */
+  transform: translateX(-50%); /* Сдвигаем на половину ширины влево */
+}
+
+/* ===========================================  */
+/* ===========================================  */
+/* ===========================================  */
+
+.layout__inner {
+  position: relative;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.layout__inner::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Линия будет внизу блока */
+  left: 50%; /* Центрируем по горизонтали */
+  width: 960px; /* Ширина линии, равная ширине блока */
+  height: 1px; /* Высота линии */
+  background: #2b221c; /* Цвет линии */
+  transform: translateX(-50%); /* Сдвигаем на половину ширины влево */
+}
+
+.layout__inner-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.layout__inner-title {
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Leotaro';
+}
+
+.layout__inner-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.what-now__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.what-now__item {
+  display: flex;
+  justify-content: center;
+  max-width: 560px;
+  min-height: 375px;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.what-now__item--1 {
+  background-image: url('../images/what-now-1.png');
+}
+.what-now__item--2 {
+  background-image: url('../images/what-now-2.png');
+}
+.what-now__item--3 {
+  background-image: url('../images/what-now-3.png');
+}
+.what-now__item--4 {
+  background-image: url('../images/what-now-4.png');
+}
+
+.what-now__item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 30px;
+}
+
+.what-now__item-title {
+  color: var(--general-text-white);
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.what-now__item-text {
+  color: var(--general-text-white);
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.what-now__item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 99px;
+  padding: 10px 43px;
+  background-color: var(--main-bg);
+  max-width: 153px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* =========================================== */
+/* =========================================== */
+/* =========================================== */
+
+.error__photo {
+  padding-bottom: 100px;
+}
+
+.photo__inner-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.photo__inner-title {
+  font-family: 'Leotaro';
+  font-size: 50px;
+  text-align: center;
+}
+
+.photo__inner-text {
+  font-size: 24px;
+  text-align: center;
+  max-width: 640px;
+  text-align: center;
+}

@@ -84,10 +84,10 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/articles.html',
-      filename: 'articles.html'
-    }),
+    // new HtmlWebpackPlugin({
+    // template: './src/articles.html',
+    // filename: 'articles.html'
+    // }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: 'about.html'
@@ -99,21 +99,21 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/meditations.html',
       filename: 'meditations.html'
-    }),
+    })
 
     // Articles
-    new HtmlWebpackPlugin({
-      template: './src/articles/article1.html',
-      filename: 'articles/article1.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/article2.html',
-      filename: 'articles/article2.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/article3.html',
-      filename: 'articles/article3.html'
-    })
+    // new HtmlWebpackPlugin({
+    //template: './src/articles/article1.html',
+    // filename: 'articles/article1.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    // template: './src/articles/article2.html',
+    // filename: 'articles/article2.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    // template: './src/articles/article3.html',
+    // filename: 'articles/article3.html'
+    // })
 
     // Article
     // new HtmlWebpackPlugin({

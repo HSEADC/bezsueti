@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some Page</title>
+
+    <!-- Подключение стилей -->
+    <link href="src/stylesheets/style-guide.css" rel="stylesheet" />
+    <link href="src/stylesheets/header.css" rel="stylesheet" />
+    <link href="src/stylesheets/footer.css" rel="stylesheet" />
+    <link href="src/stylesheets/media.css" rel="stylesheet" />
+  </head>
+
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__inner-left">
+              <a class="header__logo" href="/"> Медиатор </a>
+              <a class="header__left-link" href="about.html"> О проекте </a>
+            </div>
+
+            <div class="header__inner-right">
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="meditations.html">Медитации</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="yoga.html">Йога и упражнения</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="articles.html">Советы и истории</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- =========== -->
+      <!-- =========== -->
+      <!-- =========== -->
+
+      <main class="main">
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero__inner-top">
+                <h1 class="hero__title">Стайлгайд для медиасервиса</h1>
+                <p class="hero__text">Выберите интересующий вас раздел:</p>
+              </div>
+
+              <div class="hero_block-1">
+                <a href="#about-us">Миссия, ценности и тон</a>
+                <a href="#color">Цветовая палитра</a>
+                <a href="#fonts">Шрифты</a>
+                <a href="#elements">Ключевые элементы</a>
+                <a href="#layout">Макет сетки</a>
+                <a href="#photo">Фото</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================ -->
+
+        <section id="about-us" class="about-us">
+          <div class="container">
+            <div class="about-us__inner">
+              <div class="about-us__inner">
+                <h2 class="about-us__title">Главное о нас</h2>
+
+                <ul class="about-us__list">
+                  <li class="about-us__item">
+                    <h4 class="about-us__item-title">Миссия</h4>
+                    <p class="about-us__item-text">
+                      Помогать людям справляться со стрессом, находить баланс и
+                      улучшать качество жизни через доступные и простые
+                      практики.
+                    </p>
+                  </li>
+                  <li class="about-us__item">
+                    <h4 class="about-us__item-title">Ценности</h4>
+                    <p class="about-us__item-text">
+                      Осознанность, доступность, поддержка и легкость внедрения
+                      в повседневную жизнь. Гармония в каждом дне.
+                    </p>
+                  </li>
+                  <li class="about-us__item">
+                    <h4 class="about-us__item-title">Тон голоса</h4>
+                    <p class="about-us__item-text">
+                      Дружелюбный и поддерживающий, мы избегаем сложного языка и
+                      профессионального жаргона. Атмосфера доверия.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== -->
+
+        <section id="color" class="color">
+          <div class="container">
+            <div class="color__inner">
+              <h3 class="color__inner-title">Цветовая палитра</h3>
+
+              <div class="color__content">
+                <div
+                  style="color: var(--general-text-white)"
+                  class="color__block div1"
+                >
+                  <span>#EE9436</span>
+                </div>
+                <div
+                  style="color: var(--general-text-white)"
+                  class="color__block div2"
+                >
+                  <span>Градиент</span>
+                </div>
+                <div
+                  style="color: var(--general-text-white)"
+                  class="color__block div3"
+                >
+                  <span>#493125</span>
+                </div>
+                <div
+                  style="color: var(--general-text-black)"
+                  class="color__block div4"
+                >
+                  <span>#FBD386</span>
+                </div>
+                <div
+                  style="color: var(--general-text-white)"
+                  class="color__block div5"
+                >
+                  <span>#A88C76</span>
+                </div>
+                <div
+                  style="color: var(--general-text-black)"
+                  class="color__block div6"
+                >
+                  <span>#493125</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================= -->
+
+        <section id="fonts" class="fonts">
+          <div class="container">
+            <div class="fonts__inner">
+              <h4 class="fonts__title">Шрифты</h4>
+              <div class="fonts__body">
+                <div class="fonts__body-item">
+                  <span>Заголовки </span>
+                  <h5 class="fonts__body-title-1">Leotaro</h5>
+                  <p class="fonts__body-text-1">
+                    Аа Бб Вв Гг Дд Ее Ёё Жж Зз Ии Йй Кк Лл Мм Нн Oo Пп Рр Сс Тт
+                    Уу Фф Хх Цц Чч Шш Щщ Ъъ Ыы Ьь Ээ Юю Яя
+                  </p>
+                </div>
+
+                <div class="fonts__body-item">
+                  <span>Основной текст</span>
+                  <h5 class="fonts__body-title-2">Manrope</h5>
+                  <p class="fonts__body-text-2">
+                    Аа Бб Вв Гг Дд Ее Ёё Жж Зз Ии Йй Кк Лл Мм Нн Oo Пп Рр Сс Тт
+                    Уу Фф Хх Цц Чч Шш Щщ Ъъ Ыы Ьь Ээ Юю Яя
+                  </p>
+                </div>
+              </div>
+
+              <div class="fonts__bottom">
+                <div class="fonts__bottom-left">#2B221C</div>
+
+                <div class="fonts__bottom-right">
+                  <div class="fonts__bottom-right-content">
+                    <h5 class="fonts__bottom-content-title">
+                      Правила оформления
+                    </h5>
+                    <p class="fonts__bottom-content-text">
+                      Размеры текста на блоке компьютерной версии — 50 px для
+                      заголовка, 20 px для основного текста. Для мобильной — 40
+                      px и 20 px соответственно.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================= -->
+
+        <section id="elements" class="elements">
+          <div class="container">
+            <div class="elements__inner">
+              <div class="elements__inner-top">
+                <h4 class="elements__title">Ключевые элементы</h4>
+                <p class="elements__text">
+                  Простые формы, как в медитациях, приводят к внутреннему
+                  спокойствию, так и в композиции, каждая простая форма,
+                  соединяясь с другими, создает целостное произведение
+                  искусства.
+                </p>
+              </div>
+
+              <div class="elements__inner-img">
+                <img src="./img/images/elements-img-1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============================= -->
+
+        <section id="layout" class="layout">
+          <div class="container">
+            <div class="layout__inner">
+              <div class="layout__inner-top">
+                <h4 class="layout__inner-title">Макет сетки</h4>
+                <p class="layout__inner-text">Desktop (1440 px)</p>
+              </div>
+
+              <div class="layout__inner-img">
+                <img src="./img/images/layout-img-1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============================= -->
+
+        <section id="photo" class="error__photo photo">
+          <div class="container">
+            <div class="photo__inner">
+              <div class="photo__inner-top">
+                <h4 class="photo__inner-title">Фото</h4>
+                <p class="photo__inner-text">
+                  Естественные и тёплые изображения помогают создать ощущение
+                  уюта и лёгкости. Для акцентов используются выделенные формы и
+                  мягкие градиенты, усиливающие читаемость.
+                </p>
+              </div>
+
+              <div class="photo__body">
+                <ul class="what-now__list">
+                  <li class="what-now__item what-now__item--1">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">Расслабление</h3>
+                      <p class="what-now__item-text">
+                        Медитации и дыхательные практики, которые помогут снять
+                        напряжение
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="what-now__item what-now__item--2">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">Энергия и настроение</h3>
+                      <p class="what-now__item-text">
+                        Утренняя йога и вдохновляющие техники для бодрости
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="what-now__item what-now__item--3">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">
+                        Самопознание и баланс
+                      </h3>
+                      <p class="what-now__item-text">
+                        Осознанные практики для управления эмоциями
+                        и внутреннего спокойствия
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="what-now__item what-now__item--4">
+                    <div class="what-now__item-content">
+                      <h3 class="what-now__item-title">Быстрая практика</h3>
+                      <p class="what-now__item-text">
+                        Короткие упражнения, которые можно сделать за 5 минут
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__inner-left">
+              <p class="footer__left-text">
+                © 2024 Медитатор <br />
+                <span>Все права защищены</span>
+              </p>
+            </div>
+
+            <div class="footer__inner-right">
+              <nav class="footer__nav">
+                <ul class="nav__block-1">
+                  <li class="nav__item"><a href="index.html">Главная</a></li>
+                  <li class="nav__item"><a href="about.html">О проекте</a></li>
+                  <li class="nav__item"><a href="#">Быстрая практика</a></li>
+                </ul>
+                <ul class="nav__block-2">
+                  <li class="nav__item">
+                    <a href="style-guide.html">Стайлгайд</a>
+                  </li>
+                  <li class="nav__item"><a href="#">Telegram канал</a></li>
+                  <li class="nav__item"><a href="#">Стикер-пак</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
