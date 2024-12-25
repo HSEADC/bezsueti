@@ -1,5 +1,4 @@
-@import 'stylesheets/reset.css';
-@import 'stylesheets/fonts.css';
-@import 'stylesheets/vars.css';
-@import 'stylesheets/main.css';
-@import 'stylesheets/eror.css';
+@import 'styles/reset.css';
+@import 'styles/fonts.css';
+@import 'styles/main.css';
+@import 'styles/eror.css';
