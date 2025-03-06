@@ -1,0 +1,108 @@
+@use 'sass:color';
+$Peach_Card_Gradient: linear-gradient(
+  to right,
+  #ffc583 0%,
+  #ffdfc5 27%,
+  #faccbc 57%
+);
+$button-color: #ff5733; // !
+$bg-peachy: linear-gradient(to right, #ffc583 0%, #ffdfc5 22%, #faccbc 90%);
+$text-opacity: rgba(0, 0, 0, 0.5); // !
+$BG: #f8f7f2;
+
+.C_ArticlesRow {
+  display: grid;
+  background-color: $BG;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 1200px;
+
+  .article-card {
+    background: $Peach_Card_Gradient;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+
+    &:hover {
+      transform: translateY(-2px);
+      transition: transform 0.2s ease-in-out;
+    }
+  }
+}
+
+.C_PractiesRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+
+  .practice-card {
+    background: $peach-card-gradient;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .button {
+      margin-top: 12px;
+      padding: 10px 16px;
+      border-radius: 6px;
+      background: $button-color;
+      color: #fff;
+    }
+  }
+}
+
+.C_TestsRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+
+  .test-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: $bg-peachy;
+    border-radius: 10px;
+    text-align: center;
+
+    .button {
+      margin-top: 16px;
+      background: $button-color;
+      padding: 8px 12px;
+      border-radius: 6px;
+      color: #fff;
+    }
+  }
+}
+
+.C_FaqRow {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  padding: 24px;
+  gap: 12px;
+
+  .faq-item {
+    background: $text-opacity;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: color.adjust($text-opacity, $lightness: -10%);
+    }
+  }
+}

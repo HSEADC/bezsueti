@@ -1,0 +1,130 @@
+@use '../components/collections' as *;
+@use '../components/quarks' as *;
+
+.some-class {
+  background: $Peach_Card_Gradient;
+}
+
+.O_SecondScreenMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: $bg-peachy;
+
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    max-width: 800px;
+    text-align: center;
+  }
+}
+
+.O_ThirdScreenMain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.O_FourthScreenMain {
+  background: $peach-card-gradient;
+  padding: 50px 20px;
+  text-align: center;
+
+  .info-box {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: $bg-peachy;
+    border-radius: 10px;
+  }
+}
+
+.O_FifthScreenMain {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 16px;
+
+  .test-box {
+    background: $Peach_Card_Gradient;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+  }
+}
+
+.O_SixthScreenMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+  .cta-button {
+    background: $button-color;
+    padding: 14px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.O_CardArticle {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+  background: $peach-card-gradient;
+  border-radius: 10px;
+}
+
+.O_CardPractices {
+  @extend .O_CardArticle;
+  text-align: center;
+
+  .button {
+    margin-top: 12px;
+  }
+}
+
+.O_CardInfo {
+  @extend .O_CardArticle;
+  background: $bg-peachy;
+}
+
+.O_TestsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  padding: 24px;
+  background: $text-opacity;
+  border-radius: 12px;
+}
+
+.O_TestCardInfo {
+  @extend .O_TestsCard;
+  background: $peach-card-gradient;
+}
+
+.O_NewArticle {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  border-left: 4px solid $text-opacity;
+}
+
+.O_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: $bg-peachy;
+  border-bottom: 2px solid $text-opacity;
+}

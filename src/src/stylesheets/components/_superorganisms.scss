@@ -1,0 +1,26 @@
+@use '../components/collections' as *; // Подставь правильный путь
+
+.superorganism {
+  width: 100%;
+  padding: 80px 0;
+  background-color: $BG;
+}
+
+.S_FirstScreenMain {
+  @extend .superorganism;
+  background: linear-gradient(to bottom, $Peach_Card_Gradient);
+  text-align: center;
+
+  h2 {
+    font-size: 44px;
+    font-weight: 500;
+    color: $Text;
+  }
+
+  .cta-button {
+    background-color: $Button;
+    color: $Text;
+    border-radius: 8px;
+    padding: 12px 24px;
+  }
+}

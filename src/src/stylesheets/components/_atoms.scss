@@ -1,0 +1,118 @@
+@use '../components/collections' as *;
+
+.A_ButtonMain {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+
+  &--primary {
+    background-color: var(--button-color);
+    color: var(--text-color);
+  }
+
+  &--secondary {
+    background-color: transparent;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+  }
+
+  &:hover {
+    background-color: var(--button-hover);
+  }
+}
+
+.A_ImageMain {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.A_TagArticle {
+  display: inline-block;
+  background-color: var(--tag-bg);
+  color: var(--tag-text);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.A_SubtitleCard {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-opacity);
+}
+
+.A_ActionArticle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: var(--action-bg);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--action-hover);
+  }
+}
+
+.A_TestTiser {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.A_TitleFaqCard {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.A_SubtitleFaqCard {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.A_HeaderCategory {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--header-text);
+  padding: 8px 12px;
+}
+
+.A_SearchForm {
+  display: flex;
+  align-items: center;
+  background-color: var(--input-bg);
+  border-radius: 8px;
+  padding: 8px 12px;
+
+  input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    flex-grow: 1;
+  }
+}
+
+.A_FooterCategory {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--footer-text);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

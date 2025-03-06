@@ -1,0 +1,106 @@
+@use '../components/collections' as *;
+
+.M_HeadingMain {
+  font-family: 'Manrope', sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.M_ArticleInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #666;
+}
+
+.M_TagLine {
+  display: inline-block;
+  background: #fbc2eb;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.M_HeadingMainText {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+.M_PostTeaser {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.M_HeadingTextTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.M_TestCardInfo {
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.M_FaqCardInfo {
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+.M_HeaderCategories {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.M_HeaderLogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.M_SearchFormW {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+
+  input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 4px;
+  }
+
+  button {
+    background: #fbc2eb;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+}

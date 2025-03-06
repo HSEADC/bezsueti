@@ -1,0 +1,58 @@
+@use '../components/collections' as *;
+
+$Peach_Card_Gradient: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+
+.Q_PeachGradient {
+  background: $Peach_Card_Gradient;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.Q_TitleCardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.Q_VectorPeachyPlant {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url('../assets/peachy-plant.svg') no-repeat center/contain;
+}
+
+.Q_VectorPeachySeed {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: url('../assets/peachy-seed.svg') no-repeat center/contain;
+}
+
+.Q_ImageMainAbout {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.Q_VectorPeachyShadow {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url('../assets/peachy-shadow.svg') no-repeat center/contain;
+  opacity: 0.5;
+}
+
+.Q_LogoIcon {
+  width: 40px;
+  height: 40px;
+  background: url('../assets/logo-icon.svg') no-repeat center/contain;
+}
+
+.Q_LogoTypeA {
+  font-family: 'Manrope', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fbc2eb;
+}
