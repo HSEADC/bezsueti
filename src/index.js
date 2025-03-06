@@ -1,3 +1,3 @@
-import './src/stylesheets/main.scss'
+import './index.css'
 
 console.log('Текст в консоль')

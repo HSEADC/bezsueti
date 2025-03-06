@@ -82,7 +82,7 @@ module.exports = {
     // Main pages
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: 'index.html'
+      filename: './index.html'
     }),
     // new HtmlWebpackPlugin({
     // template: './src/articles.html',
@@ -90,15 +90,19 @@ module.exports = {
     // }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
-      filename: 'about.html'
+      filename: './about.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/yoga.html',
-      filename: 'yoga.html'
+      filename: './yoga.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/meditations.html',
-      filename: 'meditations.html'
+      filename: './meditations.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/main.html',
+      filename: './main.html'
     })
 
     // Articles

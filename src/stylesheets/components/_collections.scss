@@ -5,9 +5,9 @@ $Peach_Card_Gradient: linear-gradient(
   #ffdfc5 27%,
   #faccbc 57%
 );
-$button-color: #ff5733; // !
+$button-color: #ff5733;
 $bg-peachy: linear-gradient(to right, #ffc583 0%, #ffdfc5 22%, #faccbc 90%);
-$text-opacity: rgba(0, 0, 0, 0.5); // !
+$text-opacity: rgba(0, 0, 0, 0.5);
 $BG: #f8f7f2;
 
 .C_ArticlesRow {
@@ -40,7 +40,7 @@ $BG: #f8f7f2;
   padding: 24px;
 
   .practice-card {
-    background: $peach-card-gradient;
+    background: $Peach_Card_Gradient;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
